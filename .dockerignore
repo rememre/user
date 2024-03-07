@@ -1,0 +1,18 @@
+# Docker
+.dockerignore
+Dockerfile
+
+# Git
+.git
+.gitignore
+
+# Cache
+.pytest_cache
+.ruff_cache
+.venv
+
+# Project
+LICENSE
+README.md
+pyproject.toml
+pytest.ini

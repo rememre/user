@@ -1,0 +1,29 @@
+[project]
+name = "user-service"
+version = "1.0"
+dependencies = [
+  "fastapi",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Sunny Béta", email = "sunnybeta@protonmail.com"},
+]
+maintainers = [
+  {name = "Sunny Béta", email = "sunnybeta@protonmail.com"},
+]
+description = "A simple User Service in FastAPI"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["user","fastapi","backend","postgres"]
+classifiers = [
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/sunnybeta/user"
+"Bug Tracker" = "https://github.com/sunnybeta/user/issues"
+
+[tool.ruff.lint]
+extend-select = ["I"]
