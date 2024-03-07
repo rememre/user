@@ -13,15 +13,16 @@
 ## Getting Started
 
 0. Clone repository
+ 
 ```bash
-git clone https://github.com/sunnybeta/user user-service
+git clone https://github.com/sunnybeta/user-service
 cd user-service
 ```
 
 1. Create a virtual environment
 
 ```bash
-python3 -m venv .venv
+python -m venv .venv
 source .venv/bin/activate
 ```
 
@@ -47,4 +48,4 @@ uvicorn app.asgi:app
 
 - [ ] Obtain feedback
 - [ ] Connect with other services
-- [ ] Make clients async
+- [ ] Make async db clients
