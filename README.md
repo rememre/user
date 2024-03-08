@@ -1,6 +1,6 @@
-# FastAPI: User Service
+# User
 
-*A simple User Service written in FastAPI*
+*User Service for Rememre in Gin*
 
 ## Features
 
@@ -15,7 +15,7 @@
 0. Clone repository
  
 ```bash
-git clone https://github.com/sunnybeta/user-service
+git clone https://github.com/rememre/user user-service
 cd user-service
 ```
 
